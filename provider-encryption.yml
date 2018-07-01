@@ -1,0 +1,4 @@
+system:
+  request:
+    # 请求体最多允许上传的字节数
+    max-content-length: 102400
