@@ -1,3 +1,16 @@
+encryption:
+  rsa:
+    algorithm:
+      # 无填充分组模式
+      encryption-nopadding: RSA/ECB/NoPadding
+      # 填充分组模式
+      encryption-padding: RSA/ECB/PKCS1Padding
+      # 随机数算法
+      random: SHA1PRNG
+      # 数字签名算法
+      signature: MD5withRSA
+    # 生成的密钥长度
+    key-length: 2048
 system:
   request:
     # 请求体最多允许上传的字节数
