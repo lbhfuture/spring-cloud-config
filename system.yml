@@ -1,0 +1,12 @@
+security:
+  encryption:
+    user:
+      email:
+        aes-secret:
+        vector：
+      mobile:
+        aes-secret:
+        vector：
+      username:
+        aes-secret:
+        vector：
