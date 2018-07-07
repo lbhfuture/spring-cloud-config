@@ -1,4 +1,13 @@
 encryption:
+  aes:
+    algorithm:
+      # 无填充分组模式
+      encryption-nopadding: AES/CTR/NoPadding
+      # 填充分组模式
+      encryption-padding: AES/CBC/PKCS5Padding
+      # 随机数算法
+      random: SHA1PRNG
+    key-length: 256
   rsa:
     algorithm:
       # 无填充分组模式
