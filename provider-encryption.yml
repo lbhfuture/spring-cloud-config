@@ -1,3 +1,21 @@
+security:
+  component:
+    user:
+      # 加密用户邮箱的密钥信息
+      email:
+        aes-algorithm: AES/CTR/NoPadding
+        aes-secret: Z6vY5z4OxM0/8sD5z2g8krTBEFYKHR2M7qInQQl+ur0=
+        aes-vector：tQ15ie+8yOMuVoQRWxthmAH2vmMvqlhLmr5/7TGNYEU=
+      # 加密用户手机号码的密钥信息
+      mobile:
+        aes-algorithm: AES/CTR/NoPadding
+        aes-secret: 88TzY/yUISHQQ8Hl3AWghz5CJF2nX11XyyqcBrGHx2Q=
+        aes-vector： qXrK27ZZLsPYQR4f9q6jVUxNyTojmU0tbxHo0CB5BOQ=
+      # 加密用户登录帐号的密钥信息
+      username:
+        aes-algorithm: AES/CTR/NoPadding
+        aes-secret: oFx+GcXR1n6IITxvmi+1/Vc2ufP1E4yVXtBdxLGT43U=
+        aes-vector： y4hcJxDyeYP6x2qxcwr/7ruTYQEIlfUavwfeNMvJ784=
 encryption:
   aes:
     algorithm:
