@@ -1,15 +1,1 @@
-security:
-  encryption:
-    user:
-      email:
-        aes-algorithm: AES/CTR/NoPadding
-        aes-secret: Z6vY5z4OxM0/8sD5z2g8krTBEFYKHR2M7qInQQl+ur0=
-        aes-vector：tQ15ie+8yOMuVoQRWxthmAH2vmMvqlhLmr5/7TGNYEU=
-      mobile:
-        aes-algorithm: AES/CTR/NoPadding
-        aes-secret: 88TzY/yUISHQQ8Hl3AWghz5CJF2nX11XyyqcBrGHx2Q=
-        aes-vector： qXrK27ZZLsPYQR4f9q6jVUxNyTojmU0tbxHo0CB5BOQ=
-      username:
-        aes-algorithm: AES/CTR/NoPadding
-        aes-secret: oFx+GcXR1n6IITxvmi+1/Vc2ufP1E4yVXtBdxLGT43U=
-        aes-vector： y4hcJxDyeYP6x2qxcwr/7ruTYQEIlfUavwfeNMvJ784=
+
