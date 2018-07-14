@@ -1,3 +1,6 @@
+user:
+  default:
+    nick-prefix: 'Ashe_'
 system:
   request:
     # 请求体最多允许上传的字节数
