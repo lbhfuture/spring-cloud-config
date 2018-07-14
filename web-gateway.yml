@@ -1,7 +1,6 @@
-routes:
-  user:
-    path: '/user/**'
-    serviceId: 'provider-user'
-  order:
-    path: '/weisi/**'
-    serviceId: 'provider-weisi'
+zuul:
+  routes:
+    - path: '/user/**'
+      serviceId: 'provider-user'
+    - path: '/weisi/**'
+     serviceId: 'provider-weisi'
