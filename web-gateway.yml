@@ -3,4 +3,4 @@ zuul:
     - path: '/user/**'
       serviceId: 'provider-user'
     - path: '/weisi/**'
-     serviceId: 'provider-weisi'
+      serviceId: 'provider-weisi'
