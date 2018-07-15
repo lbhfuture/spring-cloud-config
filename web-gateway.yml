@@ -1,6 +1,10 @@
 zuul:
   routes:
     - path: '/user/**'
-      serviceId: 'provider-user'
+      retryable: 'true'
+      service-id: 'provider-user'
+      strip-prefix: 'false'
     - path: '/weisi/**'
-      serviceId: 'provider-weisi'
+      retryable: 'true'
+      service-id: 'provider-weisi'
+      strip-prefix: 'false'
