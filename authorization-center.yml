@@ -2,3 +2,9 @@ system:
   request:
     # 请求体最多允许上传的字节数
     max-content-length: '102400'
+user:
+  token:
+    # 自动登录的有效期。14天，单位：毫秒
+    auto-login-expires: '1209600000'
+    # 单次授权的有效期。10分钟，单位：毫秒
+    expires: '600000'
