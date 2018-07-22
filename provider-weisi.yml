@@ -1,7 +1,7 @@
 article:
   view:
-    # 文章可见方式。1：待审核中即可见；2：审核通过后才可见
-    available: '1'
+    # 文章可见方式
+    available: '10001'
 system:
   request:
     # 请求体最多允许上传的字节数
