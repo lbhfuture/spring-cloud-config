@@ -12,6 +12,9 @@ comment:
   question:
     # 提问是否允许评论
     available: '10001'
+  view:
+    # 评论可见方式
+    available: '10001'
 system:
   request:
     # 请求体最多允许上传的字节数
