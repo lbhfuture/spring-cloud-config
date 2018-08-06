@@ -9,6 +9,9 @@ comment:
   article:
     # 文章是否允许评论
     available: '10001'
+    hot:
+      # 热门评论所要求的最低点赞数
+      floor-like-count: '10'
   question:
     # 提问是否允许评论
     available: '10001'
